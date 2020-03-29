@@ -15,6 +15,14 @@ Will Search Various Platforms to Confirm An Email Exists<br>
    <li>Adobe X</li>
 </ul>  
 And more to come...  <br>
+Future Updates<br>
+  <ul>
+    <li>Playstation Network</li>
+    <li>ASDA</li>
+    <li>Tesco</li>
+    <li>Tesco</li>
+    <li>BBC</li>
+  </ul>
 <hr>
 <h4>Installation</h4>
 git clone https://github.com/makiisthenes/socialScanner/ <br>
