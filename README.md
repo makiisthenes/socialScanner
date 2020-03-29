@@ -19,7 +19,6 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Playstation Network</li>
     <li>ASDA</li>
     <li>Tesco</li>
-    <li>Tesco</li>
     <li>BBC</li>
   </ul>
 <hr>
