@@ -29,7 +29,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>ITV</li>
     <li>TfL</li>
     <li>Nike</li>
-    <li>SnapChat [Added: 29/03/2020]</li>
+    <li>SnapChat [Added: 29/03/2020] Recaptcha Required</li>
   </ul>
     <h6>Method Requires Sending Password Reset (Intrusive Optional)</h6>
     <ul>
