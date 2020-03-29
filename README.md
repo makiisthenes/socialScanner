@@ -29,6 +29,9 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>ITV</li>
     <li>TfL</li>
     <li>SnapChat [Added: 29/03/2020]</li>
+    <h6>New Method</h6>
+    <li>MissGuided</li>
+    <li>New Look</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
