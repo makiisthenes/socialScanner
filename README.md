@@ -33,6 +33,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
 - You do need the <strong>Firefox Application.</strong><br>
 - You do need to install dependancies. <strong>[TO DO: requirements.txt]</strong><br>
 - Including a name can help your chances in finding a linked account.<br>
+- Email should orginate from UK
 <hr>
 <h4>Installation</h4>
 - git clone https://github.com/makiisthenes/socialScanner/ <br>
