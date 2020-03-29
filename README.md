@@ -10,7 +10,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
    <li>Spotify ✓</li>
    <li>Github ✓</li>
    <li>Amazon ✓</li>
-   <li>Deviant X</li>
+   <li>Deviant ✓</li>
    <li>Gmail ✓</li>
    <li>Adobe X</li>
 </ul>  
