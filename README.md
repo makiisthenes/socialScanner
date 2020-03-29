@@ -20,6 +20,8 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>ASDA</li>
     <li>Tesco</li>
     <li>BBC</li>
+    <li>Netflix</li>
+    <li>Apple</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
