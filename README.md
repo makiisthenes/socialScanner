@@ -1,10 +1,23 @@
 <h1>socialScanner</h1><br>
--                _       _ _____                                   <br>
--               (_)     | /  ___|                                  <br>
-- ___  ___   ___ _  __ _| \ \--.  ___ __ _ _ __  _ __   ___ _ __   <br>
--/ __|/ _ \ / __| |/ _` | |`--. \/ __/ _\ | '_ \| '_ \ / _ \ '__|  <br>
--\__ \ (_) | (__| | (_| | /\__/ / (_| (_| | | | | | | |  __/ |     <br>
--|___/\___/ \___|_|\__,_|_\____/ \___\__,_|_| |_|_| |_|\___|_|     <br>
--
--Will Search Various Platforms to Confirm An Email Exsists<br>                                                                
-                                                              
+-Will Search Various Platforms to Confirm An Email Exsists<br>
+Current Platforms it searches:
+<ul>
+  <li>Twitter</li>
+   <li>Instagram</li>
+   <li>Spotify</li>
+   <li>Github</li>
+   <li>Amazon</li>
+   <li>Deviant</li>
+   <li>Gmail</li>
+   <li>Adobe</li>
+</ul>  
+And more to come...  <br>
+<hr>
+<h4>Installation</h4><br>
+git clone https://github.com/makiisthenes/socialScanner/ <br>
+and use main.py script.<br>
+<hr>
+<h4>Requirements</h4><br>
+You do need a fast internet connection and email for parameter.<br>
+Including a name can help your chances in finding a account.<br>
+<img src=''>
