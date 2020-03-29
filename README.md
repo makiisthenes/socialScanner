@@ -22,13 +22,15 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>BBC</li>
   </ul>
 <hr>
-<h4>Installation</h4>
-git clone https://github.com/makiisthenes/socialScanner/ <br>
-and use main.py script.<br>
-<hr>
 <h4>Requirements</h4>
-You do need a <strong>fast internet connection</strong> and email for parameter.<br>
-Including a name can help your chances in finding a account.<br>
+- You do need a <strong>fast internet connection</strong> and an email address for parameter.<br>
+- Including a name can help your chances in finding a account.<br>
+- You do need Firefox Application  
+<hr>
+<h4>Installation</h4>
+- git clone https://github.com/makiisthenes/socialScanner/ <br>
+- Use main.py script to initiate.<br>
+
 <hr>
 <h4>Usage</h4><br>
 <img src='https://raw.githubusercontent.com/makiisthenes/socialScanner/master/new.png'>
