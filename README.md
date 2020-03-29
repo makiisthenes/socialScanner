@@ -1,7 +1,7 @@
 <h1>socialScanner</h1><br>
 <i>[socialScanner by Michael Peres]</i><hr>
 <h4>About</h4>
-Will Search Various Platforms to Confirm An Email Exists<br>
+Will Search Various Platforms to Confirm An Email Exists.<br>
 <h6>Current Platforms it searches:</h6><br>
 <ul>
   <li>Email Compromised Check X</li>
