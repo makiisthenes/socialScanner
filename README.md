@@ -7,8 +7,8 @@ Will Search Various Platforms to Confirm An Email Exists<br>
   <li>Email Compromised Check</li>
   <li>Twitter✓</li>
    <li>Instagram✓</li>
-   <li>Spotify</li>
-   <li>Github</li>
+   <li>Spotify✓</li>
+   <li>Github✓</li>
    <li>Amazon</li>
    <li>Deviant</li>
    <li>Gmail✓</li>
