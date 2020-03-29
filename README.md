@@ -1,6 +1,6 @@
 <h1>socialScanner</h1><br>
 <i>[socialScanner by Michael Peres]</i>
-<h4>About</h4><br>
+<h4>About</h4>
 Will Search Various Platforms to Confirm An Email Exists<br>
 <i>Current Platforms it searches:<i>
 <ul>
@@ -15,11 +15,11 @@ Will Search Various Platforms to Confirm An Email Exists<br>
 </ul>  
 And more to come...  <br>
 <hr>
-<h4>Installation</h4><br>
+<h4>Installation</h4>
 git clone https://github.com/makiisthenes/socialScanner/ <br>
 and use main.py script.<br>
 <hr>
-<h4>Requirements</h4><br>
+<h4>Requirements</h4>
 You do need a fast internet connection and email for parameter.<br>
 Including a name can help your chances in finding a account.<br>
 <hr>
