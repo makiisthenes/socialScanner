@@ -25,7 +25,8 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
 <h4>Requirements</h4>
 - You do need a <strong>fast internet connection</strong> and an email address for parameter.<br>
 - Including a name can help your chances in finding a account.<br>
-- You do need Firefox Application  
+- You do need Firefox Application
+- You do need to install dependancies. [TO DO: requirements.txt]
 <hr>
 <h4>Installation</h4>
 - git clone https://github.com/makiisthenes/socialScanner/ <br>
