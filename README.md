@@ -31,7 +31,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Nike</li>
     <li>SnapChat [Added: 29/03/2020]</li>
   </ul>
-    <h6>New Method</h6>
+    <h6>Method Requires Sending Password Reset (Intrusive Optional)</h6>
     <ul>
     <li>MissGuided</li>
     <li>New Look</li>
