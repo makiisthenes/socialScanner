@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from colorama import Fore, Back, Style
 from colorama import init
+from time import sleep
 # import pyspeedtest  -Discontinued
 import random
 
@@ -56,10 +57,10 @@ try:
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Account"]')))
     driver.find_element_by_xpath('//*[@id="Account"]').send_keys(email)
     driver.find_element_by_xpath('//*[@id="searchPwnage"]').click()
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
-    email_status = driver.find_element_by_tag_name('h2')
-    print(email_status.text)
-    if email_status.text == 'Good news — no pwnage found!':
+    desired = '//*[@id="loading"][@style="display: none;"]'
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, desired)))
+    h2_text = driver.find_element_by_xpath('/html/body/div[3]/div/div/div[1]/h2').text
+    if h2_text == 'Good news — no pwnage found!':
         email_compromised = False
     else:
         email_compromised = True
@@ -174,11 +175,10 @@ if github_occupied:
     print(Fore.BLACK+Back.GREEN+'Github - Email Found')
 else:
     print(Fore.BLACK+Back.RED+'Github - Email Not Found')
-if 'gmail' in domain:
+if 'gmail' or 'googlemail' in domain:
     print(Fore.BLACK+Back.GREEN+'Gmail - Email Found')
 else:
     print(Fore.BLACK+Back.RED+'Gmail - Email Not Found')
-
 
 driver.get('https://www.amazon.co.uk/')
 try:
