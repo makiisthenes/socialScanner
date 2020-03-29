@@ -1,5 +1,4 @@
 <h1>socialScanner</h1><br>
-<hr>
 <h4>About</h4><br>
 Will Search Various Platforms to Confirm An Email Exists<br>
 <i>Current Platforms it searches:<i>
