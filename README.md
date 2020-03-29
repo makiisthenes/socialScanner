@@ -1,5 +1,5 @@
 <h1>socialScanner</h1><br>
-<i>[socialScanner by Michael Peres]</i>
+<i>[socialScanner by Michael Peres]</i><hr>
 <h4>About</h4>
 Will Search Various Platforms to Confirm An Email Exists<br>
 <i>Current Platforms it searches:<i>
