@@ -28,7 +28,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Zynga</li>
     <li>ITV</li>
     <li>TfL</li>
-    <li>SnapChat</li>
+    <li>SnapChat [Added: 29/03/2020]</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
