@@ -14,8 +14,7 @@ Will Search Various Platforms to Confirm An Email Exists<br>
    <li>Gmail ✓</li>
    <li>Adobe X</li>
 </ul>  
-<br>
-Future Updates to come...<br>
+  <h6>Future Updates to come...</h6><br>
   <ul>
     <li>Playstation Network</li>
     <li>ASDA</li>
