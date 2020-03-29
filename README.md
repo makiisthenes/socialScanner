@@ -4,7 +4,7 @@
 Will Search Various Platforms to Confirm An Email Exists.<br>
 <h6>Current Platforms it searches:</h6><br>
 <ul>
-  <li>Email Compromised Check X</li>
+  <li>Email Compromised Check ✓</li>
   <li>Twitter ✓</li>
    <li>Instagram ✓</li>
    <li>Spotify ✓</li>
