@@ -12,7 +12,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
    <li>Amazon ✓</li>
    <li>Deviant ✓</li>
    <li>Gmail ✓</li>
-   <li>Adobe X</li>
+   <li>Adobe ✓</li>
 </ul>  
 <h6>Future Updates to come...</h6>
   <ul>
