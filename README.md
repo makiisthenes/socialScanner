@@ -1,4 +1,4 @@
-# socialScanner<br>
+<h1>socialScanner</h1><br>
 Will Search Various Platforms to Confirm An Email Exsists<br>
                 _       _ _____                                 <br>
                (_)     | /  ___|                                <br>
