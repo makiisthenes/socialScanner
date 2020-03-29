@@ -25,6 +25,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Steam</li>
     <li>Orgin</li>
     <li>Battle.net</li>
+    <li>Zynga</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
