@@ -1,3 +1,6 @@
+# Made by Michael Peres 
+# https://github.com/makiisthenes/
+
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
@@ -240,3 +243,5 @@ print(Fore.BLACK+Back.RED+'Errors: '+str(errors))
 driver.close()
 driver.quit()
 # Forgot to close and alot of background process Firefox windows were running
+# Made by Michael Peres 
+# https://github.com/makiisthenes/
