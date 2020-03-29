@@ -249,7 +249,10 @@ try:
         WebDriverWait(driver, delay).until(EC.presence_of_element_located(
             (By.XPATH, '/html/body/div[1]/div/div/section/section/section/div/section/div/section/section/form/section[1]/label')))
         adobe_elemnt = driver.find_element_by_xpath('/html/body/div[1]/div/div/section/section/section/div/section/div/section/section/form/section[1]/label')
-        adobe_occupied = False
+        if adobe_elemnt.text == 'Check your email address or create a new account':
+            adobe_occupied = False
+        else:
+            errors.append('Adobe page has changed please look at page again and refactor code.')
     except Exception as e:
         adobe_occupied = True
         errors.append('Adobe Timeout/ Element cannot be found anymore. Expected if account exists.')
@@ -260,6 +263,7 @@ if adobe_occupied:
 else:
     print(Fore.BLACK+Back.RED+'Adobe - Email Not Found')
 
+# to be done
 driver.get('https://www.playstation.com/en-gb/')  # chain event to sign up
 driver.get('https://www.asda.com/login')  # status on login page.
 driver.get('https://secure.tesco.com/account/en-GB/register')  # auto detect email registered
