@@ -1,6 +1,3 @@
-# Made by Michael Peres 
-# https://github.com/makiisthenes/
-
 from bs4 import BeautifulSoup
 import requests
 from selenium import webdriver
@@ -13,7 +10,6 @@ from colorama import Fore, Back, Style
 from colorama import init
 # import pyspeedtest  -Discontinued
 import random
-
 
 if __name__ == '__main__':
     pass
@@ -32,6 +28,7 @@ amazon_occupied = False
 deviant_occupied = False
 gmail_occupied = False
 adobe_occupied = False
+email_compromised = False
 errors = []
 # references are looked at id, as params.
 email = input('Enter the email of person to search for:: ').lower()
@@ -52,7 +49,26 @@ password = 'Password123@'
 options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options)
+print('-----------------------------------------')
 print('Started')
+driver.get('https://haveibeenpwned.com/')
+try:
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="Account"]')))
+    driver.find_element_by_xpath('//*[@id="Account"]').send_keys(email)
+    driver.find_element_by_xpath('//*[@id="searchPwnage"]').click()
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.TAG_NAME, 'h2')))
+    email_status = driver.find_element_by_tag_name('h2')
+    print(email_status.text)
+    if email_status.text == 'Good news — no pwnage found!':
+        email_compromised = False
+    else:
+        email_compromised = True
+except TimeoutException as e:
+    errors.append('Pwned page has changed please look at page again and refactor code.')
+if email_compromised:
+    print(Fore.BLACK+Back.MAGENTA+'Email - Compromised Password Found')
+elif not email_compromised:
+    print(Fore.BLACK+Back.CYAN+'Email - Not Compromised')
 delay = 10  # make a option to change delay this for more accuracy...
 driver.get('https://twitter.com/i/flow/signup')  # need a delay for website to load.
 try:
@@ -99,7 +115,10 @@ try:
     WebDriverWait(driver, delay).until(EC.presence_of_element_located(
         (By.XPATH, '/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[3]/div/div/span')))
     insta_element = driver.find_element_by_xpath('/html/body/div[1]/section/main/div/article/div/div[1]/div/form/div[3]/div/div/span')
-    insta_occupied = True
+    if insta_element.get_attribute('class') == 'coreSpriteInputAccepted gBp1f':
+        insta_occupied = False
+    elif insta_element.get_attribute('class') == 'coreSpriteInputError gBp1f':
+        insta_occupied = True
 except Exception as e:
     insta_occupied = False
     errors.append('Instagram Timeout/ Element cannot be found anymore.')
@@ -108,21 +127,24 @@ if insta_occupied:
 else:
     print(Fore.BLACK+Back.RED+'Instagram - Email Not Found')
 
-
 driver.get('https://www.spotify.com/uk/signup/')
 try:
     WebDriverWait(driver, delay).until(EC.presence_of_element_located(
         (By.XPATH, '//*[@id="register-email"]')))
-    email_input = driver.find_element_by_xpath('//*[@id="register-email"]').send_keys(email)
-    driver.find_element_by_xpath('//*[@id="register-confirm-email"]').click()
-    driver.find_element_by_xpath('//*[@id="register-email"]').click()
+    driver.find_element_by_xpath('//*[@id="register-email"]').send_keys(email)
+    driver.find_element_by_xpath('//*[@id="register-confirm-email"]').send_keys(email)
+    driver.find_element_by_xpath('//*[@id="register-password"]').click()
+    driver.find_element_by_xpath('//*[@id="register-button-email-submit"]').click()
 except TimeoutException:
     errors.append('Spotify page has changed please look at page again and refactor code.')
 try:
     WebDriverWait(driver, delay).until(EC.presence_of_element_located(
         (By.XPATH, '/html/body/div[2]/div[2]/div[2]/div/div/section[2]/div/form/fieldset/ul/li[1]/label[2]')))
-    spotify_elmnt = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[2]/div/div/section[2]/div/form/fieldset/ul/li[1]/label[2]')
-    spotify_occupied = True
+    spotify_elmnt = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[2]/div/div/section[2]/div/form/fieldset/ul/li[1]/label[2]').text
+    if spotify_elmnt == "We're sorry, that email is taken.":
+        spotify_occupied = True
+    else:
+        spotify_occupied = False
 except TimeoutException:
     spotify_occupied = False
     errors.append('Spotify Timeout/ Element cannot be found anymore.')
@@ -170,7 +192,11 @@ try:
     try:
         WebDriverWait(driver, delay).until(EC.presence_of_element_located(
         (By.XPATH, '/html/body/div[1]/div[1]/div[2]/div/div[1]/div/div/div/h4')))
-        amazon_occupied = False
+        amazon_element = driver.find_element_by_tag_name('h4')
+        if amazon_element.text == 'There was a problem':
+            amazon_occupied = False
+        else:
+            amazon_occupied = True
     except Exception as e:
         amazon_occupied = True
         errors.append('Amazon Timeout/ Element cannot be found anymore. Expected if account exists')
@@ -238,10 +264,8 @@ driver.get('https://www.playstation.com/en-gb/')  # chain event to sign up
 driver.get('https://www.asda.com/login')  # status on login page.
 driver.get('https://secure.tesco.com/account/en-GB/register')  # auto detect email registered
 driver.get('https://account.bbc.com/account/tv')
-
+print('-----------------------------------------')
 print(Fore.BLACK+Back.RED+'Errors: '+str(errors))
 driver.close()
 driver.quit()
 # Forgot to close and alot of background process Firefox windows were running
-# Made by Michael Peres 
-# https://github.com/makiisthenes/
