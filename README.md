@@ -34,5 +34,6 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
 <hr>
 <h4>Usage</h4><br>
 <img src='https://raw.githubusercontent.com/makiisthenes/socialScanner/master/new.png'>
+<img src='https://raw.githubusercontent.com/makiisthenes/socialScanner/master/terminal.png'>
   <a href='https://github.com/makiisthenes'>Me</a>
   
