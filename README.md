@@ -28,7 +28,7 @@ git clone https://github.com/makiisthenes/socialScanner/ <br>
 and use main.py script.<br>
 <hr>
 <h4>Requirements</h4>
-You do need a fast internet connection and email for parameter.<br>
+You do need a <strong>fast internet connection</strong> and email for parameter.<br>
 Including a name can help your chances in finding a account.<br>
 <hr>
 <h4>Usage</h4><br>
