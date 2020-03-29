@@ -1,6 +1,6 @@
 <h1>socialScanner</h1><br>
--Will Search Various Platforms to Confirm An Email Exsists<br>
-Current Platforms it searches:
+Will Search Various Platforms to Confirm An Email Exsists<br>
+<i>Current Platforms it searches:<i>
 <ul>
   <li>Twitter</li>
    <li>Instagram</li>
@@ -20,4 +20,6 @@ and use main.py script.<br>
 <h4>Requirements</h4><br>
 You do need a fast internet connection and email for parameter.<br>
 Including a name can help your chances in finding a account.<br>
+<hr>
+<h4>Usage</h4><br>
 <img src=''>
