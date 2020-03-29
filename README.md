@@ -2,7 +2,7 @@
 <i>[socialScanner by Michael Peres]</i><hr>
 <h4>About</h4>
 Will Search Various Platforms to Confirm An Email Exists<br>
-<i>Current Platforms it searches:<i><br>
+<h6>Current Platforms it searches:</h6><br>
 <ul>
   <li>Email Compromised Check X</li>
   <li>Twitter ✓</li>
@@ -14,7 +14,7 @@ Will Search Various Platforms to Confirm An Email Exists<br>
    <li>Gmail ✓</li>
    <li>Adobe X</li>
 </ul>  
-  <h6>Future Updates to come...</h6><br>
+Future Updates to come...
   <ul>
     <li>Playstation Network</li>
     <li>ASDA</li>
