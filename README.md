@@ -26,6 +26,8 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Orgin</li>
     <li>Battle.net</li>
     <li>Zynga</li>
+    <li>ITV</li>
+    <li>TfL</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
