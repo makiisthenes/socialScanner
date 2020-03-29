@@ -34,6 +34,9 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <ul>
     <li>MissGuided</li>
     <li>New Look</li>
+    <li>BooHoo</li>
+    <li>Asos</li>
+    <li>Pretty Little Thing</li>
   </ul>
 <hr>
 <h4>Requirements</h4>
