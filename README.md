@@ -4,13 +4,13 @@
 Will Search Various Platforms to Confirm An Email Exists<br>
 <i>Current Platforms it searches:<i>
 <ul>
-  <li>Twitter</li>
-   <li>Instagram</li>
+  <li>Twitter✓</li>
+   <li>Instagram✓</li>
    <li>Spotify</li>
    <li>Github</li>
    <li>Amazon</li>
    <li>Deviant</li>
-   <li>Gmail</li>
+   <li>Gmail✓</li>
    <li>Adobe</li>
 </ul>  
 And more to come...  <br>
