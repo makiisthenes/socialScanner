@@ -31,6 +31,6 @@ You do need a <strong>fast internet connection</strong> and email for parameter.
 Including a name can help your chances in finding a account.<br>
 <hr>
 <h4>Usage</h4><br>
-<img src='https://raw.githubusercontent.com/makiisthenes/socialScanner/master/WORKING_PIC.png'>
+<img src=''>
   <a href='https://github.com/makiisthenes'>Me</a>
   
