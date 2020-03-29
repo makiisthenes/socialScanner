@@ -4,15 +4,15 @@
 Will Search Various Platforms to Confirm An Email Exists<br>
 <i>Current Platforms it searches:<i><br>
 <ul>
-  <li>Email Compromised Check</li>
+  <li>Email Compromised Check X</li>
   <li>Twitter ✓</li>
    <li>Instagram ✓</li>
    <li>Spotify ✓</li>
    <li>Github ✓</li>
    <li>Amazon ✓</li>
-   <li>Deviant ?</li>
+   <li>Deviant X</li>
    <li>Gmail ✓</li>
-   <li>Adobe ?</li>
+   <li>Adobe X</li>
 </ul>  
 And more to come...  <br>
 <hr>
