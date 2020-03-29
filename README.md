@@ -1,6 +1,6 @@
 <h1>socialScanner</h1><br>
-<img src='https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png'>
-<img src='https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png'>
+<img src='https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png'; style='width:5%'>
+<img src='https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png'; style='width:5%'>
 
 <hr>
 <h4>About</h4><br>
