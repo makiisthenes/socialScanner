@@ -16,7 +16,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
 </ul>  
 <h6>Future Updates to come...</h6>
   <ul>
-    <li>Playstation Network</li>
+    <li>Playstation Network (Sony)</li>
     <li>ASDA</li>
     <li>Tesco</li>
     <li>BBC</li>
