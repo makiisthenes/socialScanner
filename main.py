@@ -268,6 +268,7 @@ driver.get('https://www.playstation.com/en-gb/')  # chain event to sign up
 driver.get('https://www.asda.com/login')  # status on login page.
 driver.get('https://secure.tesco.com/account/en-GB/register')  # auto detect email registered
 driver.get('https://account.bbc.com/account/tv')
+driver.get('https://accounts.snapchat.com/accounts/login')
 print('-----------------------------------------')
 print(Fore.BLACK+Back.RED+'Errors: '+str(errors))
 driver.close()
