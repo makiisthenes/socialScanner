@@ -28,7 +28,7 @@ Will Search Various Platforms to Confirm An Email Exists.<br>
     <li>Zynga</li>
     <li>ITV</li>
     <li>TfL</li>
-    <li>Nike</li>
+    <li>Nike - Use Custom ID's</li>
     <li>SnapChat [Added: 29/03/2020] Recaptcha Required</li>
   </ul>
     <h6>Method Requires Sending Password Reset (Intrusive Optional)</h6>
