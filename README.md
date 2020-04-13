@@ -4,7 +4,7 @@
 Will Search Various Platforms to Confirm An Email Exists.<br>
 <h6>Current Platforms it searches:</h6><br>
 <ul>
-  <li>Email Compromised Check ✓ {If Compromised, using http://pwndb2am4tzkvold.onion/ can help you obtain pastes.}</li>
+  <li>Email Compromised Check ✓ [http://pwndb2am4tzkvold.onion/]</li>
   <li>Twitter ✓</li>
    <li>Instagram ✓</li>
    <li>Spotify ✓</li>
