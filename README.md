@@ -1,5 +1,7 @@
 <h1>socialScanner</h1><br>
-<i>[socialScanner by Michael Peres]</i><hr>
+<i>[socialScanner by Michael Peres]
+<br>Website Layout, Designs do change over time and some website email checkers will not work anymore because of this. Sadly.</i>
+<hr>
 <h4>About</h4>
 Will Search Various Platforms to Confirm An Email Exists.<br>
 <h6>Current Platforms it searches:</h6><br>
